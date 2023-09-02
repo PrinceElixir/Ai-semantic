@@ -1,0 +1,70 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+.header {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.analyze-button, .reset-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.analyze-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.reset-button {
+  background-color: #f39c12;
+  color: white;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.sentiment-image {
+  width: 50vw;
+  height: 50vh;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+  textarea, button {
+    width: 100%;
+  }
+  
+  img {
+    max-width: 90vw;
+    max-height: 45vh;
+  }
+}
